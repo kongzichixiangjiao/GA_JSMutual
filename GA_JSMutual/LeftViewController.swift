@@ -12,6 +12,6 @@ class LeftViewController: UIViewController {
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         print(childViewControllers)
-        NSNotificationCenter.defaultCenter().postNotificationName("left", object: ["key" : "left"])
+        NSNotificationCenter.defaultCenter().postNotificationName("left", object: ["key" : "Left"])
     }
 }

@@ -12,6 +12,6 @@ class RightViewController: UIViewController {
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         print(childViewControllers)
-        NSNotificationCenter.defaultCenter().postNotificationName("right", object: ["key" : "right"])
+        NSNotificationCenter.defaultCenter().postNotificationName("right", object: ["key" : "Right"])
     }
 }

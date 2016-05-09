@@ -21,28 +21,22 @@ class ViewController: UIViewController, UIWebViewDelegate {
         
         print(childViewControllers)
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "leftAction", name: "left", object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "rightAction", name: "right", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "leftAction:", name: "left", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "rightAction:", name: "right", object: nil)
     }
     
-    func rightAction() {
-        let str = "LeftViewController"
-        let storyboard = UIStoryboard(name:"Main", bundle:nil)
-        let newController = storyboard.instantiateViewControllerWithIdentifier(str)
-        let oldController = childViewControllers.last!
-        
-        oldController.willMoveToParentViewController(nil)
-        addChildViewController(newController)
-        newController.view.frame = oldController.view.frame
-        
-        transitionFromViewController(oldController, toViewController: newController, duration: 0.3, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: nil, completion: { (finished) -> Void in
-            oldController.removeFromParentViewController()
-            newController.didMoveToParentViewController(self)
-        })
+    func rightAction(notifycation: NSNotification) {
+        print(notifycation.object!["key"])
+        push(notifycation.object!["key"] as! String)
     }
     
-    func leftAction() {
-        let str = "RightViewController"
+    func leftAction(notifycation: NSNotification) {
+        print(notifycation.object!["key"])
+        push(notifycation.object!["key"] as! String)
+    }
+    
+    func push(value: String) {
+        let str = (value == "left" ? "Right" : "Left") + "ViewController"
         let storyboard = UIStoryboard(name:"Main", bundle:nil)
         let newController = storyboard.instantiateViewControllerWithIdentifier(str)
         let oldController = childViewControllers.last!
