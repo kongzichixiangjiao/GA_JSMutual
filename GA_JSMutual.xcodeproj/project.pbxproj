@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC759F2D1CE03B9B006E0316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */; };
+		DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F2E1CE03B9B006E0316 /* ViewController.swift */; };
+		DC759F321CE03B9B006E0316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC759F301CE03B9B006E0316 /* Main.storyboard */; };
+		DC759F341CE03B9B006E0316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC759F331CE03B9B006E0316 /* Assets.xcassets */; };
+		DC759F371CE03B9B006E0316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */; };
+		DC759F421CE03B9B006E0316 /* GA_JSMutualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F411CE03B9B006E0316 /* GA_JSMutualTests.swift */; };
+		DC759F4D1CE03B9B006E0316 /* GA_JSMutualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F4C1CE03B9B006E0316 /* GA_JSMutualUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC759F3E1CE03B9B006E0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC759F211CE03B9B006E0316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC759F281CE03B9B006E0316;
+			remoteInfo = GA_JSMutual;
+		};
+		DC759F491CE03B9B006E0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC759F211CE03B9B006E0316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC759F281CE03B9B006E0316;
+			remoteInfo = GA_JSMutual;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC759F291CE03B9B006E0316 /* GA_JSMutual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_JSMutual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC759F2E1CE03B9B006E0316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC759F311CE03B9B006E0316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC759F331CE03B9B006E0316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC759F361CE03B9B006E0316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC759F381CE03B9B006E0316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC759F3D1CE03B9B006E0316 /* GA_JSMutualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_JSMutualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC759F411CE03B9B006E0316 /* GA_JSMutualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_JSMutualTests.swift; sourceTree = "<group>"; };
+		DC759F431CE03B9B006E0316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC759F481CE03B9B006E0316 /* GA_JSMutualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_JSMutualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC759F4C1CE03B9B006E0316 /* GA_JSMutualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_JSMutualUITests.swift; sourceTree = "<group>"; };
+		DC759F4E1CE03B9B006E0316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC759F261CE03B9B006E0316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F3A1CE03B9B006E0316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F451CE03B9B006E0316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC759F201CE03B9B006E0316 = {
+			isa = PBXGroup;
+			children = (
+				DC759F2B1CE03B9B006E0316 /* GA_JSMutual */,
+				DC759F401CE03B9B006E0316 /* GA_JSMutualTests */,
+				DC759F4B1CE03B9B006E0316 /* GA_JSMutualUITests */,
+				DC759F2A1CE03B9B006E0316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC759F2A1CE03B9B006E0316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC759F291CE03B9B006E0316 /* GA_JSMutual.app */,
+				DC759F3D1CE03B9B006E0316 /* GA_JSMutualTests.xctest */,
+				DC759F481CE03B9B006E0316 /* GA_JSMutualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC759F2B1CE03B9B006E0316 /* GA_JSMutual */ = {
+			isa = PBXGroup;
+			children = (
+				DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */,
+				DC759F2E1CE03B9B006E0316 /* ViewController.swift */,
+				DC759F301CE03B9B006E0316 /* Main.storyboard */,
+				DC759F331CE03B9B006E0316 /* Assets.xcassets */,
+				DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */,
+				DC759F381CE03B9B006E0316 /* Info.plist */,
+			);
+			path = GA_JSMutual;
+			sourceTree = "<group>";
+		};
+		DC759F401CE03B9B006E0316 /* GA_JSMutualTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC759F411CE03B9B006E0316 /* GA_JSMutualTests.swift */,
+				DC759F431CE03B9B006E0316 /* Info.plist */,
+			);
+			path = GA_JSMutualTests;
+			sourceTree = "<group>";
+		};
+		DC759F4B1CE03B9B006E0316 /* GA_JSMutualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC759F4C1CE03B9B006E0316 /* GA_JSMutualUITests.swift */,
+				DC759F4E1CE03B9B006E0316 /* Info.plist */,
+			);
+			path = GA_JSMutualUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC759F281CE03B9B006E0316 /* GA_JSMutual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC759F511CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutual" */;
+			buildPhases = (
+				DC759F251CE03B9B006E0316 /* Sources */,
+				DC759F261CE03B9B006E0316 /* Frameworks */,
+				DC759F271CE03B9B006E0316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GA_JSMutual;
+			productName = GA_JSMutual;
+			productReference = DC759F291CE03B9B006E0316 /* GA_JSMutual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC759F3C1CE03B9B006E0316 /* GA_JSMutualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC759F541CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualTests" */;
+			buildPhases = (
+				DC759F391CE03B9B006E0316 /* Sources */,
+				DC759F3A1CE03B9B006E0316 /* Frameworks */,
+				DC759F3B1CE03B9B006E0316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC759F3F1CE03B9B006E0316 /* PBXTargetDependency */,
+			);
+			name = GA_JSMutualTests;
+			productName = GA_JSMutualTests;
+			productReference = DC759F3D1CE03B9B006E0316 /* GA_JSMutualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC759F471CE03B9B006E0316 /* GA_JSMutualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC759F571CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualUITests" */;
+			buildPhases = (
+				DC759F441CE03B9B006E0316 /* Sources */,
+				DC759F451CE03B9B006E0316 /* Frameworks */,
+				DC759F461CE03B9B006E0316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC759F4A1CE03B9B006E0316 /* PBXTargetDependency */,
+			);
+			name = GA_JSMutualUITests;
+			productName = GA_JSMutualUITests;
+			productReference = DC759F481CE03B9B006E0316 /* GA_JSMutualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC759F211CE03B9B006E0316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = houjianan;
+				TargetAttributes = {
+					DC759F281CE03B9B006E0316 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DC759F3C1CE03B9B006E0316 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC759F281CE03B9B006E0316;
+					};
+					DC759F471CE03B9B006E0316 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC759F281CE03B9B006E0316;
+					};
+				};
+			};
+			buildConfigurationList = DC759F241CE03B9B006E0316 /* Build configuration list for PBXProject "GA_JSMutual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC759F201CE03B9B006E0316;
+			productRefGroup = DC759F2A1CE03B9B006E0316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC759F281CE03B9B006E0316 /* GA_JSMutual */,
+				DC759F3C1CE03B9B006E0316 /* GA_JSMutualTests */,
+				DC759F471CE03B9B006E0316 /* GA_JSMutualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC759F271CE03B9B006E0316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC759F371CE03B9B006E0316 /* LaunchScreen.storyboard in Resources */,
+				DC759F341CE03B9B006E0316 /* Assets.xcassets in Resources */,
+				DC759F321CE03B9B006E0316 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F3B1CE03B9B006E0316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F461CE03B9B006E0316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC759F251CE03B9B006E0316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */,
+				DC759F2D1CE03B9B006E0316 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F391CE03B9B006E0316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC759F421CE03B9B006E0316 /* GA_JSMutualTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC759F441CE03B9B006E0316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC759F4D1CE03B9B006E0316 /* GA_JSMutualUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC759F3F1CE03B9B006E0316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC759F281CE03B9B006E0316 /* GA_JSMutual */;
+			targetProxy = DC759F3E1CE03B9B006E0316 /* PBXContainerItemProxy */;
+		};
+		DC759F4A1CE03B9B006E0316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC759F281CE03B9B006E0316 /* GA_JSMutual */;
+			targetProxy = DC759F491CE03B9B006E0316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC759F301CE03B9B006E0316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC759F311CE03B9B006E0316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC759F361CE03B9B006E0316 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC759F4F1CE03B9B006E0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC759F501CE03B9B006E0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC759F521CE03B9B006E0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_JSMutual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC759F531CE03B9B006E0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_JSMutual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC759F551CE03B9B006E0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_JSMutualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_JSMutual.app/GA_JSMutual";
+			};
+			name = Debug;
+		};
+		DC759F561CE03B9B006E0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_JSMutualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_JSMutual.app/GA_JSMutual";
+			};
+			name = Release;
+		};
+		DC759F581CE03B9B006E0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_JSMutualUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_JSMutual;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC759F591CE03B9B006E0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_JSMutualUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_JSMutual;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC759F241CE03B9B006E0316 /* Build configuration list for PBXProject "GA_JSMutual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC759F4F1CE03B9B006E0316 /* Debug */,
+				DC759F501CE03B9B006E0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC759F511CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC759F521CE03B9B006E0316 /* Debug */,
+				DC759F531CE03B9B006E0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC759F541CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC759F551CE03B9B006E0316 /* Debug */,
+				DC759F561CE03B9B006E0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC759F571CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC759F581CE03B9B006E0316 /* Debug */,
+				DC759F591CE03B9B006E0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC759F211CE03B9B006E0316 /* Project object */;
+}
