@@ -14,6 +14,9 @@
 		DC759F371CE03B9B006E0316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */; };
 		DC759F421CE03B9B006E0316 /* GA_JSMutualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F411CE03B9B006E0316 /* GA_JSMutualTests.swift */; };
 		DC759F4D1CE03B9B006E0316 /* GA_JSMutualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F4C1CE03B9B006E0316 /* GA_JSMutualUITests.swift */; };
+		DC759F5B1CE03CCE006E0316 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC759F5A1CE03CCE006E0316 /* JavaScriptCore.framework */; };
+		DC759F9E1CE0777F006E0316 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F9D1CE0777F006E0316 /* LeftViewController.swift */; };
+		DC759FA01CE0778B006E0316 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F9F1CE0778B006E0316 /* RightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DC759F481CE03B9B006E0316 /* GA_JSMutualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_JSMutualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC759F4C1CE03B9B006E0316 /* GA_JSMutualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_JSMutualUITests.swift; sourceTree = "<group>"; };
 		DC759F4E1CE03B9B006E0316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC759F5A1CE03CCE006E0316 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DC759F9D1CE0777F006E0316 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		DC759F9F1CE0778B006E0316 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC759F5B1CE03CCE006E0316 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		DC759F201CE03B9B006E0316 = {
 			isa = PBXGroup;
 			children = (
+				DC759F5A1CE03CCE006E0316 /* JavaScriptCore.framework */,
 				DC759F2B1CE03B9B006E0316 /* GA_JSMutual */,
 				DC759F401CE03B9B006E0316 /* GA_JSMutualTests */,
 				DC759F4B1CE03B9B006E0316 /* GA_JSMutualUITests */,
@@ -99,6 +107,8 @@
 			children = (
 				DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */,
 				DC759F2E1CE03B9B006E0316 /* ViewController.swift */,
+				DC759F9D1CE0777F006E0316 /* LeftViewController.swift */,
+				DC759F9F1CE0778B006E0316 /* RightViewController.swift */,
 				DC759F301CE03B9B006E0316 /* Main.storyboard */,
 				DC759F331CE03B9B006E0316 /* Assets.xcassets */,
 				DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */,
@@ -256,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC759F9E1CE0777F006E0316 /* LeftViewController.swift in Sources */,
+				DC759FA01CE0778B006E0316 /* RightViewController.swift in Sources */,
 				DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */,
 				DC759F2D1CE03B9B006E0316 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = GA_JSMutual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutual";
@@ -408,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = GA_JSMutual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-JSMutual";
