@@ -7,17 +7,12 @@
 //
 
 import UIKit
-import JavaScriptCore
 
-class ViewController: UIViewController, UIWebViewDelegate {
 
-    @IBOutlet weak var webView: UIWebView!
+class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let httpString = "https://www.baidu.com"
-//        let httpUrl = NSURL(string: httpString)
-//        let httpRequest = NSURLRequest(URL: httpUrl!)
-//        webView.loadRequest(httpRequest)
         
         print(childViewControllers)
         
@@ -36,7 +31,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     }
     
     func push(value: String) {
-        let str = (value == "left" ? "Right" : "Left") + "ViewController"
+        let str = (value == "Left" ? "Right" : "Left") + "ViewController"
         let storyboard = UIStoryboard(name:"Main", bundle:nil)
         let newController = storyboard.instantiateViewControllerWithIdentifier(str)
         let oldController = childViewControllers.last!
@@ -51,52 +46,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         })
     }
 
-    func webViewDidFinishLoad(webView: UIWebView) {
-        let context: JSContext = webView.valueForKeyPath("documentView.webView.mainFrame.javaScriptContext") as! JSContext
-//        let alertJS = "alert('test js OC')"
-//        context.evaluateScript(alertJS)
-        
-//        context[@"test1"] = ^() {
-//            NSArray *args = [JSContext currentArguments];
-//            for (id obj in args) {
-//                NSLog(@"%@",obj);
-//            }
-//        };
-        
-        let jsFunctStr = "test1('参数1')"
-        context.evaluateScript(jsFunctStr)
-        let jsFunctStr1 = "test1('参数a','参数b')"
-        context.evaluateScript(jsFunctStr1)
-        
-//        //Swift
-//        let simplifyString: @convention(block) () -> () = { input in
-//            let args = JSContext.currentArguments()
-//            print(args)
-//            for arg in args {
-//                print(arg)
-//            }
-//        }
-//        context.setObject(unsafeBitCast(simplifyString, AnyObject.self), forKeyedSubscript: "test1")
-//        print(context.evaluateScript("test1"))
-        
-        //Swift
-        let simplifyString: @convention(block) String -> String = { input in
-            let mutableString = NSMutableString(string: input) as CFMutableStringRef
-            CFStringTransform(mutableString, nil, kCFStringTransformToLatin, Bool())
-            CFStringTransform(mutableString, nil, kCFStringTransformStripCombiningMarks, Bool())
-            print(mutableString)
-            return mutableString as String
-        }
-        print(simplifyString)
-        context.setObject(unsafeBitCast(simplifyString, AnyObject.self), forKeyedSubscript: "simplifyString")
-        print(context.evaluateScript("simplifyString('?????!')"))
-        
-        
-    }
-    
-    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
-        print("error", error)
-    }
+ 
     
 }
 

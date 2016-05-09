@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1307301CE0862B006696CB /* GA_WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13072F1CE0862A006696CB /* GA_WebViewController.swift */; };
 		DC759F2D1CE03B9B006E0316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */; };
 		DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F2E1CE03B9B006E0316 /* ViewController.swift */; };
 		DC759F321CE03B9B006E0316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC759F301CE03B9B006E0316 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC13072F1CE0862A006696CB /* GA_WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_WebViewController.swift; sourceTree = "<group>"; };
 		DC759F291CE03B9B006E0316 /* GA_JSMutual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_JSMutual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC759F2E1CE03B9B006E0316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */,
+				DC13072F1CE0862A006696CB /* GA_WebViewController.swift */,
 				DC759F2E1CE03B9B006E0316 /* ViewController.swift */,
 				DC759F9D1CE0777F006E0316 /* LeftViewController.swift */,
 				DC759F9F1CE0778B006E0316 /* RightViewController.swift */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1307301CE0862B006696CB /* GA_WebViewController.swift in Sources */,
 				DC759F9E1CE0777F006E0316 /* LeftViewController.swift in Sources */,
 				DC759FA01CE0778B006E0316 /* RightViewController.swift in Sources */,
 				DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */,
@@ -502,6 +506,7 @@
 				DC759F531CE03B9B006E0316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC759F541CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				DC759F561CE03B9B006E0316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC759F571CE03B9B006E0316 /* Build configuration list for PBXNativeTarget "GA_JSMutualUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				DC759F591CE03B9B006E0316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
