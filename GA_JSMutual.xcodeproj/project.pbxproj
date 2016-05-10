@@ -18,6 +18,9 @@
 		DC759F5B1CE03CCE006E0316 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC759F5A1CE03CCE006E0316 /* JavaScriptCore.framework */; };
 		DC759F9E1CE0777F006E0316 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F9D1CE0777F006E0316 /* LeftViewController.swift */; };
 		DC759FA01CE0778B006E0316 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759F9F1CE0778B006E0316 /* RightViewController.swift */; };
+		DCC124D31CE17B960042AFFB /* SouceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC124D21CE17B960042AFFB /* SouceViewController.swift */; };
+		DCC124D51CE17C1C0042AFFB /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC124D41CE17C1C0042AFFB /* GoalViewController.swift */; };
+		DCC124D71CE17C380042AFFB /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC124D61CE17C380042AFFB /* Object.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		DC759F5A1CE03CCE006E0316 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DC759F9D1CE0777F006E0316 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		DC759F9F1CE0778B006E0316 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		DCC124D21CE17B960042AFFB /* SouceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SouceViewController.swift; sourceTree = "<group>"; };
+		DCC124D41CE17C1C0042AFFB /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		DCC124D61CE17C380042AFFB /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				DC759F2C1CE03B9B006E0316 /* AppDelegate.swift */,
-				DC13072F1CE0862A006696CB /* GA_WebViewController.swift */,
-				DC759F2E1CE03B9B006E0316 /* ViewController.swift */,
-				DC759F9D1CE0777F006E0316 /* LeftViewController.swift */,
-				DC759F9F1CE0778B006E0316 /* RightViewController.swift */,
+				DCC124D11CE17B5A0042AFFB /* ValuePassed */,
+				DCC124D01CE17B460042AFFB /* WebViewJSMutual */,
+				DCC124CF1CE17B290042AFFB /* ContainerView */,
 				DC759F301CE03B9B006E0316 /* Main.storyboard */,
 				DC759F331CE03B9B006E0316 /* Assets.xcassets */,
 				DC759F351CE03B9B006E0316 /* LaunchScreen.storyboard */,
@@ -136,6 +141,34 @@
 				DC759F4E1CE03B9B006E0316 /* Info.plist */,
 			);
 			path = GA_JSMutualUITests;
+			sourceTree = "<group>";
+		};
+		DCC124CF1CE17B290042AFFB /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC759F2E1CE03B9B006E0316 /* ViewController.swift */,
+				DC759F9D1CE0777F006E0316 /* LeftViewController.swift */,
+				DC759F9F1CE0778B006E0316 /* RightViewController.swift */,
+			);
+			name = ContainerView;
+			sourceTree = "<group>";
+		};
+		DCC124D01CE17B460042AFFB /* WebViewJSMutual */ = {
+			isa = PBXGroup;
+			children = (
+				DC13072F1CE0862A006696CB /* GA_WebViewController.swift */,
+			);
+			name = WebViewJSMutual;
+			sourceTree = "<group>";
+		};
+		DCC124D11CE17B5A0042AFFB /* ValuePassed */ = {
+			isa = PBXGroup;
+			children = (
+				DCC124D21CE17B960042AFFB /* SouceViewController.swift */,
+				DCC124D41CE17C1C0042AFFB /* GoalViewController.swift */,
+				DCC124D61CE17C380042AFFB /* Object.swift */,
+			);
+			name = ValuePassed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC124D51CE17C1C0042AFFB /* GoalViewController.swift in Sources */,
 				DC1307301CE0862B006696CB /* GA_WebViewController.swift in Sources */,
 				DC759F9E1CE0777F006E0316 /* LeftViewController.swift in Sources */,
 				DC759FA01CE0778B006E0316 /* RightViewController.swift in Sources */,
 				DC759F2F1CE03B9B006E0316 /* ViewController.swift in Sources */,
+				DCC124D31CE17B960042AFFB /* SouceViewController.swift in Sources */,
+				DCC124D71CE17C380042AFFB /* Object.swift in Sources */,
 				DC759F2D1CE03B9B006E0316 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
